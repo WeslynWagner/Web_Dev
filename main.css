@@ -4,7 +4,7 @@
 
 main{
   padding: 60px;
-  background-image: "/home/weslyn/Pictures/github.jpeg"
+  background: url("file:///home/weslyn/Pictures/github.jpeg") no-repeat center center fixed;
   background-size: contain;
   min-height: 800px;
 }
