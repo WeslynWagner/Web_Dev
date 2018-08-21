@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Page</title>
+<head>
+	<p>
+	This is in the paragraph
+	</p>
+	<table>
+	This is in the table
+	</table>
+	
+	<script language="javascript">
+		document.write("Writing from the body");
+		
+		
+		function display(){
+			var a = confirm("Are you sure?");
+			return "returned" + a
+		}
+		function xyz(){
+			alert("Form Submitted")
+		}
+	
+	</script>
+
+</head>
+
+
+<body>
+	<script language="javascript">
+		document.write(display());
+	
+	</script>
+	<form>
+		First Name <input type="text" name= "fname" size="20"><br>
+		Last Name <input type="text" name= "lname" size="20"><br>
+		<input type="submit" value="click" onClick="xyz()">
+		
+	</form>
+
+
+</body>
+</html>
