@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body{
+html{
   padding: 60px;
   background: url("/home/weslyn/Pictures/github.jpeg") no-repeat;
   background-size: contain;
