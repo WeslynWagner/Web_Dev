@@ -4,6 +4,9 @@
 
 main{
   padding: 60px;
+  background: url("https://ccdigitalenterprise.files.wordpress.com/2013/10/office-team-using-laptop.jpg") no-repeat;
+  background-size: contain;
+  min-height: 800px;
 }
 
 p {
@@ -17,6 +20,10 @@ div {
 .blueborder{
   background-color: blue;
   width: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-shadow: 1px 1px black;
 }
 
 .redborder{
