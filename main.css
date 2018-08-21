@@ -4,7 +4,7 @@
 
 main{
   padding: 60px;
-  background: url("https://ccdigitalenterprise.files.wordpress.com/2013/10/office-team-using-laptop.jpg") no-repeat;
+  background-image: "/home/weslyn/Pictures/github.jpeg"
   background-size: contain;
   min-height: 800px;
 }
